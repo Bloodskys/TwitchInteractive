@@ -1,0 +1,11 @@
+# TwitchInteractive
+Unity + Twitch Chat Interactive
+
+Twitch Chat .NET
+1. Create GameObject (etc. Twitch) and attach [Twitch IRC Script] and [Twitch Listener Script]
+2. Setup Oauth/Nick/Channel fields
+3. Create GameObject (etc. Example) and attach [Example Script]
+
+
+How to use:
+TwitchListener.Instance.AddListener("!yourCommand", amountTrigger, callbackAction, loop)
